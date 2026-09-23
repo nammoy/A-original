@@ -1,0 +1,4 @@
+#Wed Sep 23 16:13:12 PKT 2026
+base.0=/Users/12066arsalansuhail/Documents/Bytrix_Projects/ai-sheildme-app/android-native/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

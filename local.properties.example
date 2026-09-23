@@ -1,0 +1,4 @@
+## Copy to local.properties and fill in. Values come from the backend team.
+sdk.dir=/path/to/Android/sdk
+AISHIELD_APP_TOKEN=
+STRIPE_PUBLISHABLE_KEY=

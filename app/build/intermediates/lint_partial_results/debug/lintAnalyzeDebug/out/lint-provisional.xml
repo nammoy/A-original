@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.11.1" type="conditional_incidents">
+
+    <incident
+        id="NotificationPermission"
+        severity="error"
+        message="When targeting Android 13 or higher, posting a permission requires holding the `POST_NOTIFICATIONS` permission">
+        <fix-data missing="android.permission.POST_NOTIFICATIONS"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*1}/com/app/aisheildme/bytrix/data/AppMessagingService.kt"
+            line="53"
+            column="13"
+            startOffset="1963"
+            endLine="54"
+            endColumn="74"
+            endOffset="2073"/>
+    </incident>
+
+    <incident
+        id="NotificationPermission"
+        severity="error"
+        message="When targeting Android 13 or higher, posting a permission requires holding the `POST_NOTIFICATIONS` permission">
+        <fix-data missing="android.permission.POST_NOTIFICATIONS"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*1}/com/app/aisheildme/bytrix/core/util/LocalNotifier.kt"
+            line="47"
+            column="13"
+            startOffset="1590"
+            endLine="48"
+            endColumn="74"
+            endOffset="1703"/>
+    </incident>
+
+</incidents>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.11.1" type="partial_results">
+    <map id="NotificationPermission">
+        <location id="class"
+            file="$GRADLE_USER_HOME/caches/8.13/transforms/879d28ae422293554622ae73abf62ce4/transformed/firebase-messaging-24.1.0/jars/classes.jar"/>
+        <entry
+            name="className"
+            string="com/google/firebase/messaging/DisplayNotification"/>
+        <entry
+            name="source"
+            boolean="true"/>
+    </map>
+    <map id="UnsafeImplicitIntentLaunch">
+            <map id="actionsSent">
+                    <map id="android.intent.action.VIEW (used to start an activity)">
+                        <location id="0"
+                            file="${:app*debug*MAIN*sourceProvider*0*javaDir*1}/com/app/aisheildme/bytrix/core/util/FileOpener.kt"
+                            line="43"
+                            column="26"
+                            startOffset="1488"
+                            endLine="43"
+                            endColumn="52"
+                            endOffset="1514"/>
+                    </map>
+                    <map id="android.settings.APP_NOTIFICATION_SETTINGS (used to start an activity)">
+                        <location id="0"
+                            file="${:app*debug*MAIN*sourceProvider*0*javaDir*1}/com/app/aisheildme/bytrix/feature/profile/ProfileScreen.kt"
+                            line="82"
+                            column="21"
+                            startOffset="3680"
+                            endLine="82"
+                            endColumn="70"
+                            endOffset="3729"/>
+                    </map>
+            </map>
+    </map>
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.app.aisheildme.bytrix.MainActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <location id="R.color.brand_blue"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="3"
+            column="12"
+            startOffset="62"
+            endLine="3"
+            endColumn="29"
+            endOffset="79"/>
+        <location id="R.drawable.bg_onboarding"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable-nodpi/bg_onboarding.png"/>
+        <location id="R.drawable.doctor_image"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable-nodpi/doctor_image.png"/>
+        <entry
+            name="model"
+            string="color[ic_launcher_background(U),brand_blue(D),splash_background(U)],drawable[ic_launcher_foreground(U),app_logo(U),bg_main(U),bg_onboarding(D),doctor_image(D),onb1(U),onb2(U),onb3(U)],mipmap[ic_launcher(U),ic_launcher_round(U)],string[app_name(U)],style[Theme_AiShieldMe_Splash(U),Theme_SplashScreen(R),Theme_AiShieldMe(U)],xml[file_paths(U)];b^0^3,c^0^3,e^f^2^3^10;;;"/>
+    </map>
+
+</incidents>

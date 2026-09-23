@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.app.aisheildme.bytrix.data.UserMapperTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-09-23T12:28:05.343Z" hostname="12066-Arsalan-Suhail.local" time="0.078">
+  <properties/>
+  <testcase name="unknown fields on the wire do not break parsing" classname="com.app.aisheildme.bytrix.data.UserMapperTest" time="0.072"/>
+  <testcase name="booleans decode from int, string and bool alike" classname="com.app.aisheildme.bytrix.data.UserMapperTest" time="0.001"/>
+  <testcase name="flat insurance keys populate the section" classname="com.app.aisheildme.bytrix.data.UserMapperTest" time="0.0"/>
+  <testcase name="either spelling of the email-verified flag counts as verified" classname="com.app.aisheildme.bytrix.data.UserMapperTest" time="0.001"/>
+  <testcase name="hasProfileSetup is true once any one section is present" classname="com.app.aisheildme.bytrix.data.UserMapperTest" time="0.001"/>
+  <testcase name="driver licence does not absorb the user's address state" classname="com.app.aisheildme.bytrix.data.UserMapperTest" time="0.0"/>
+  <testcase name="pin expiry falls back to 5 and survives a string value" classname="com.app.aisheildme.bytrix.data.UserMapperTest" time="0.001"/>
+  <testcase name="family doctor does not absorb the user's own name and address" classname="com.app.aisheildme.bytrix.data.UserMapperTest" time="0.0"/>
+  <testcase name="an all-blank section maps to null so setup is not marked done" classname="com.app.aisheildme.bytrix.data.UserMapperTest" time="0.0"/>
+  <testcase name="nested insurance object wins over the flat keys" classname="com.app.aisheildme.bytrix.data.UserMapperTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

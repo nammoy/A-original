@@ -1,0 +1,1 @@
+-keep,allowobfuscation,allowshrinking class com.app.aisheildme.bytrix.feature.bookkeeper.AddInvoiceViewModel
