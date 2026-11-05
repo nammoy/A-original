@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.app.aisheildme.bytrix.core.AppExceptionTypeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-09-23T12:28:05.304Z" hostname="12066-Arsalan-Suhail.local" time="0.0">
-  <properties/>
-  <testcase name="AppException is an IOException so OkHttp does not crash the dispatcher" classname="com.app.aisheildme.bytrix.core.AppExceptionTypeTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

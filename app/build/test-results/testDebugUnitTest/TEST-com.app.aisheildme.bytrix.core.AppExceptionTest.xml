@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.app.aisheildme.bytrix.core.AppExceptionTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-09-23T12:28:05.274Z" hostname="12066-Arsalan-Suhail.local" time="0.028">
-  <properties/>
-  <testcase name="email is read out of a 428 body" classname="com.app.aisheildme.bytrix.core.AppExceptionTest" time="0.027"/>
-  <testcase name="a body without an email yields null so the caller falls back" classname="com.app.aisheildme.bytrix.core.AppExceptionTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

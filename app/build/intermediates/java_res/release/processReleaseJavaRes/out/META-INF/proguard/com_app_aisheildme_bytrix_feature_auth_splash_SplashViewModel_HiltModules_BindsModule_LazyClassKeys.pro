@@ -1,1 +1,0 @@
--keep,allowobfuscation,allowshrinking class com.app.aisheildme.bytrix.feature.auth.splash.SplashViewModel
